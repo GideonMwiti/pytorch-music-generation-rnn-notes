@@ -1,0 +1,30 @@
+{
+  "project": "Project 78: Music Generation with RNN (Note Sequences)",
+  "model": {
+    "architecture": "MusicRNN (2-Layer Stacked LSTM)",
+    "vocab_size": 155,
+    "embedding_dim": 128,
+    "hidden_dim": 256,
+    "num_layers": 2,
+    "parameters": 981787,
+    "model_size_mb": 3.745220184326172
+  },
+  "training_metrics": {
+    "final_train_loss": 1.1726553481670294,
+    "final_val_loss": 3.427233713071908,
+    "best_val_loss": 2.8336203354617435,
+    "best_val_perplexity": 17.00692026204203,
+    "epochs": 18
+  },
+  "generation_evaluation": {
+    "t07_note_count": 64,
+    "t10_note_count": 63,
+    "conditioned_note_count": 68,
+    "corpus_token_count": 26936
+  },
+  "latency_benchmark": {
+    "mean_step_ms": 1.0194866400070168,
+    "p95_step_ms": 1.4314424503936607,
+    "throughput_notes_per_sec": 980.8858309247852
+  }
+}
